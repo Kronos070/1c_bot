@@ -7,7 +7,7 @@ const DECISION_LABELS: Record<ConfirmDecision, string> = {
 	approved: "✅ Разрешено",
 	rejected: "❌ Отклонено",
 	expired: "⏱ Время ожидания истекло — запрос отменён",
-	aborted: "🔌 Клиент Perun отключился — запрос снят",
+	aborted: "🔌 Запрос снят: Perun больше не ждёт ответа",
 };
 
 const INPUT_LABELS: Record<InputMethod, string> = {

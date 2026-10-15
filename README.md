@@ -72,6 +72,8 @@ curl -X POST "http://127.0.0.1:8787/perun/events?session=test" \
 
 ## Для разработчика клиента Perun
 
+Что нужно доработать в самом Perun, чтобы он слал события боту без отдельного моста, описано в [docs/perun-integration.md](docs/perun-integration.md).
+
 У бота один эндпоинт: `POST /perun/events`. Он принимает **сырые события** из stdout Perun в `--mode rpc` (по одному JSON-объекту на запрос).
 
 - Авторизация: заголовок `Authorization: Bearer <PERUN_WEBHOOK_SECRET>`.
